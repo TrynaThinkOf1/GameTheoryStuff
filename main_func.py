@@ -20,9 +20,12 @@ def main(player1: object, player2: object):
     if move1 and move2:
       first.points += 3
       second.points += 3
-    elif move1 and not move2:
+    elif not move1 and not move2:
       first.points += 1
-    elif not move1 and move2:
       second.points += 1
+    elif move1 and not move2:
+      first.points += 5
+    elif not move1 and move2:
+      second.points += 5
       
   print(f"{first}: {first.points}, {second}: {second.points}")
