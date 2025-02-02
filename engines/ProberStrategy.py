@@ -10,7 +10,6 @@ class ProberStrategy:
             self.initial_responses.append(op_last_move)
             result = [True, False, True][self.move_count]
             self.move_count += 1
-            print(f"ProberStrategy: {result}")
             return result
             
         if self.move_count == 3:
@@ -19,7 +18,6 @@ class ProberStrategy:
             self.move_count += 1
             
         if self.exploit_mode:
-            print("ProberStrategy: False")
             return False
             
         print(f"ProberStrategy: {op_last_move}")

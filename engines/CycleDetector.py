@@ -22,8 +22,7 @@ class CycleDetector:
             result = not next_predicted
         else:
             result = True
-            
-        print(f"CycleDetector: {result}")
+
         return result
         
     def __repr__(self):

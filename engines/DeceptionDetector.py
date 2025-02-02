@@ -13,7 +13,6 @@ class DeceptionDetector:
                 
         self.history.append(op_last_move)
         result = self.trust_score > 0.5
-        print(f"DeceptionDetector: {result}")
         return result
         
     def __repr__(self):

@@ -14,12 +14,10 @@ class GradualTitForTat:
         if self.punishment_mode:
             if self.punishment_counter > 0:
                 self.punishment_counter -= 1
-                print("GradualTitForTat: False")
                 return False
             else:
                 self.punishment_mode = False
-        
-        print("GradualTitForTat: True")
+
         return True
         
     def __repr__(self):

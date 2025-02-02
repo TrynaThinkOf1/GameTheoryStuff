@@ -7,7 +7,6 @@ class RandomWithBias:
         
     def move(self, op_last_move):
         result = self.random.random() < self.cooperation_bias
-        print(f"RandomWithBias: {result}")
         return result
         
     def __repr__(self):

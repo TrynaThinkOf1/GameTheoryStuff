@@ -12,7 +12,6 @@ class ReputationBased:
             
         self.reputation_score = sum(1 for move in self.history if move) / len(self.history)
         result = self.reputation_score >= 0.4
-        print(f"ReputationBased: {result}")
         return result
         
     def __repr__(self):

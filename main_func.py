@@ -29,3 +29,4 @@ def main(player1: object, player2: object):
       second.points += 5
       
   print(f"{first}: {first.points}, {second}: {second.points}")
+  return first, second

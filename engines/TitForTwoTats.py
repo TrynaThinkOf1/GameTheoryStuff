@@ -10,10 +10,8 @@ class TitForTwoTats:
             self.opponent_defections = 0
             
         if self.opponent_defections >= 2:
-            print("TitForTwoTats: False")
             return False
-            
-        print("TitForTwoTats: True")
+
         return True
         
     def __repr__(self):

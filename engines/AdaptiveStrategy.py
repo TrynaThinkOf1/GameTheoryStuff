@@ -14,7 +14,6 @@ class AdaptiveStrategy:
                 (self.total_moves - 1)) / self.total_moves
         
         result = self.opponent_cooperation_rate >= 0.5
-        print(f"AdaptiveStrategy: {result}")
         return result
         
     def __repr__(self):

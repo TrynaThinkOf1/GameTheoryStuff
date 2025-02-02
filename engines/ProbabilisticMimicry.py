@@ -12,8 +12,7 @@ class ProbabilisticMimicry:
         else:
             result = self.default_move
             self.default_move = not self.default_move
-            
-        print(f"ProbabilisticMimicry: {result}")
+
         return result
         
     def __repr__(self):

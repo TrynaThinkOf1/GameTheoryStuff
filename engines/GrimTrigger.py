@@ -7,9 +7,7 @@ class GrimTrigger:
         if not op_last_move:
             self.betrayed = True
         if self.betrayed:
-            print("GrimTrigger: False")
             return False
-        print("GrimTrigger: True")
         return True
         
     def __repr__(self):

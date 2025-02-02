@@ -24,8 +24,7 @@ class MetaStrategy:
             result = True
         else:
             result = self.random.choice([True, False])
-            
-        print(f"MetaStrategy: {result}")
+
         return result
         
     def __repr__(self):

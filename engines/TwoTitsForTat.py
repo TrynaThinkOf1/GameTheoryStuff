@@ -8,9 +8,7 @@ class TwoTitsForTat:
         self.last_two_moves.pop(0)
         
         if not all(self.last_two_moves):
-            print("TwoTitsForTat: False")
             return False
-        print("TwoTitsForTat: True")
         return True
         
     def __repr__(self):

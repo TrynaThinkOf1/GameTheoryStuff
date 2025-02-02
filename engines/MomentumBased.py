@@ -15,8 +15,7 @@ class MomentumBased:
             result = self.current_streak
         else:
             result = not self.current_streak
-            
-        print(f"MomentumBased: {result}")
+
         return result
         
     def __repr__(self):

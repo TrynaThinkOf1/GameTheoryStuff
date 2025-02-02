@@ -12,7 +12,6 @@ class GradualLearner:
             
         import random
         result = random.random() < self.cooperation_probability
-        print(f"GradualLearner: {result}")
         return result
         
     def __repr__(self):

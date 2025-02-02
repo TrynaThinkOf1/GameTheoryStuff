@@ -2,7 +2,7 @@ from .AdaptiveStrategy import *
 from .AdversityLearner import *
 from .CycleDetector import *
 from .DeceptionDetector import *
-from .FrogivingTitForTat import *
+from .ForgivingTitForTat import *
 from .FrequencyAnalyzer import *
 from .GradualLearner import *
 from .GradualTitForTat import *
@@ -14,7 +14,7 @@ from .PatternHunter import *
 from .Pavlov import *
 from .ProbabilisticMimicry import *
 from .ProberStrategy import *
-from .Random import *
+from .Custom import *
 from .RandomWithBias import *
 from .ReputationBased import *
 from .RiskAdjuster import *
@@ -22,4 +22,5 @@ from .SoftMajority import *
 from .SuspiciousTitForTat import *
 from .TitForTat import *
 from .TrendFollower import *
-from .TwoTisForTat import *
+from .TwoTitsForTat import *
+from .TitForTwoTats import *

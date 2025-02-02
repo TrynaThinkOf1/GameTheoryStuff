@@ -17,8 +17,7 @@ class AdversityLearner:
             result = True
         else:
             result = op_last_move
-            
-        print(f"AdversityLearner: {result}")
+
         return result
         
     def __repr__(self):

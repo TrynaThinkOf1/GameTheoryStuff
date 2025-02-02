@@ -9,7 +9,6 @@ class FrequencyAnalyzer:
     def move(self, op_last_move):
         self.history.append(op_last_move)
         if len(self.history) < self.window_size:
-            print("FrequencyAnalyzer: True")
             return True
             
         recent_window = self.history[-self.window_size:]
@@ -21,8 +20,7 @@ class FrequencyAnalyzer:
             result = False
         else:
             result = self.random.choice([True, False])
-            
-        print(f"FrequencyAnalyzer: {result}")
+
         return result
         
     def __repr__(self):
